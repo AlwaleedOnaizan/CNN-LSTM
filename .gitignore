@@ -1,0 +1,17 @@
+# environment / caches
+.venv/
+__pycache__/
+*.log
+
+# data and large files
+data/
+
+# report building (not part of the experiment)
+report_base.docx
+src/build_report.py
+src/draw_pipeline.py
+
+# outputs: keep only the split and the chosen hyper-parameters
+outputs/*
+!outputs/metadata.csv
+!outputs/best_params.json

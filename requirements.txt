@@ -1,0 +1,11 @@
+# GPU build of PyTorch: pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu128
+matplotlib==3.11.2
+numpy==2.5.4
+opencv-python==5.1.0.95
+pandas==3.1.1
+scikit-learn==1.9.1
+scipy==1.18.1
+seaborn==0.13.2
+torch==2.11.0
+torchvision==0.26.0
+tqdm==4.70.1
